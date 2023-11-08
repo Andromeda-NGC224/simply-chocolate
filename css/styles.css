@@ -94,6 +94,11 @@ body {
     letter-spacing: 0.02em;
 }
 
+.header-list-item-link:hover,
+.header-list-item-link:focus {
+    text-decoration: underline;
+}
+
 .header-list-icon-list {
     padding-top: 24px;
     padding-bottom: 32px;
