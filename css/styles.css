@@ -205,13 +205,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    fill: #fd9222;
     width: 38px;
     height: 38px;
-    transition: color 250ms linear, fill 250ms linear;
+    transition: background-color 250ms linear;
 }
 
-.main-section-hero-link-down:hover .main-section-hero-link-down-span {
-fill: #fff;
-background-color: #FD9222
+.main-section-hero-link-down-span-svg-icon {
+    fill: #FD9222;
+    transition: fill 250ms linear;
 }
+
+.main-section-hero-link-down:hover .main-section-hero-link-down-span,
+.main-section-hero-link-down:hover .main-section-hero-link-down-span-svg-icon {
+background-color: #FD9222;
+fill: #fff;
+}
+
