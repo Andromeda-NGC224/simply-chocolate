@@ -1,0 +1,217 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    list-style: none;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #fafafa;;
+    font-family: 'Montserrat', sans-serif;
+    color: #111;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1136px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    padding: 0;
+    margin-right: 369px;
+    line-height: 0;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: #111;
+}
+
+.logo-chocolate {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+.header-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin-right: 90px;
+}
+
+.header-list-item-link {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-list-icon-list {
+    padding-top: 24px;
+    padding-bottom: 32px;
+    fill: none;
+    stroke:#111111;
+    transition: stroke 250ms linear;
+}
+
+.header-list-icon-list:hover,
+.header-list-icon-list:focus {
+    fill: none;
+    stroke: #FD9222;
+}
+
+.header-list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 0;
+}
+
+/* Hero Section */
+
+.main-section-hero {
+    max-width: 1136px;
+    margin: 0 auto;
+    padding: 381px 40px 40px 40px ;
+    background: rgba(17, 17, 17, 0.6);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%,
+     rgba(17, 17, 17, 0.40) 100%),
+    url('../images/hero-background.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.hero-container {
+    padding: 0;
+}
+
+.main-section-hero-article {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03;
+    padding-bottom: 32px;
+    max-width: 484px;
+}
+
+.main-section-hero-btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    background-color: #FD9222;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    width: 144px;
+    height: 45px;
+    margin-right: 14px;
+    transition: background-color 250ms linear, color 250ms linear;
+}
+
+.main-section-hero-btn:hover,
+.main-section-hero-btn:focus {
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+.main-section-hero-link {
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 14px;
+    padding: 14px 40px;
+    margin-right: 585px;
+    transition: background-color 250ms linear, border 250ms linear, color 250ms linear;
+}
+
+.main-section-hero-link:hover,
+.main-section-hero-link:focus {
+    background-color: #FFF;
+    border: 1px solid #FD9222;
+    color: #FD9222;
+}
+
+.main-section-hero-link-down {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    transition: color 250ms linear;
+}
+
+.main-section-hero-link-down:hover,
+.main-section-hero-link-down:focus {
+    color: #FD9222;
+}
+
+.main-section-hero-link-down-span {
+    display: flex;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    fill: #fd9222;
+    width: 38px;
+    height: 38px;
+    transition: color 250ms linear, fill 250ms linear;
+}
+
+.main-section-hero-link-down:hover .main-section-hero-link-down-span {
+fill: #fff;
+background-color: #FD9222
+}
